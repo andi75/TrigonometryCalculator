@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SASViewController: UIViewController {
 
     @IBOutlet weak var aValue: UITextField!
     @IBOutlet weak var bValue: UITextField!
@@ -57,12 +57,5 @@ class SecondViewController: UIViewController {
         setDefaultValues()
         updateAlphaBetaGamma()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

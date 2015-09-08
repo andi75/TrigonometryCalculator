@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class SSSViewControler: UIViewController {
     @IBOutlet weak var aValue: UITextField!
     @IBOutlet weak var bValue: UITextField!
     @IBOutlet weak var cValue: UITextField!
@@ -54,12 +54,5 @@ class FirstViewController: UIViewController {
         setDefaultValues()
         updateAlphaBetaGamma()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

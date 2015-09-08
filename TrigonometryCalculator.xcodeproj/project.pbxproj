@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F700A0971B68D0F8000776A2 /* ASAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F700A0961B68D0F8000776A2 /* ASAViewController.swift */; };
+		F700A0991B68D7C5000776A2 /* SASViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F700A0981B68D7C5000776A2 /* SASViewController.swift */; };
+		F700A09B1B68D8F2000776A2 /* SSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F700A09A1B68D8F2000776A2 /* SSSViewController.swift */; };
 		F7D6DD041B660AD5008C4615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D6DD031B660AD5008C4615 /* AppDelegate.swift */; };
-		F7D6DD061B660AD5008C4615 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D6DD051B660AD5008C4615 /* FirstViewController.swift */; };
-		F7D6DD081B660AD5008C4615 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D6DD071B660AD5008C4615 /* SecondViewController.swift */; };
 		F7D6DD0B1B660AD5008C4615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D6DD091B660AD5008C4615 /* Main.storyboard */; };
 		F7D6DD0D1B660AD5008C4615 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D6DD0C1B660AD5008C4615 /* Images.xcassets */; };
 		F7D6DD101B660AD5008C4615 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7D6DD0E1B660AD5008C4615 /* LaunchScreen.xib */; };
@@ -27,11 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F700A0961B68D0F8000776A2 /* ASAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASAViewController.swift; sourceTree = "<group>"; };
+		F700A0981B68D7C5000776A2 /* SASViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SASViewController.swift; sourceTree = "<group>"; };
+		F700A09A1B68D8F2000776A2 /* SSSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSSViewController.swift; sourceTree = "<group>"; };
 		F7D6DCFE1B660AD5008C4615 /* TrigonometryCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrigonometryCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D6DD021B660AD5008C4615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7D6DD031B660AD5008C4615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7D6DD051B660AD5008C4615 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F7D6DD071B660AD5008C4615 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F7D6DD0A1B660AD5008C4615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7D6DD0C1B660AD5008C4615 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F7D6DD0F1B660AD5008C4615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -79,10 +81,11 @@
 		F7D6DD001B660AD5008C4615 /* TrigonometryCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				F700A09A1B68D8F2000776A2 /* SSSViewController.swift */,
+				F700A0981B68D7C5000776A2 /* SASViewController.swift */,
 				F7D6DD031B660AD5008C4615 /* AppDelegate.swift */,
-				F7D6DD051B660AD5008C4615 /* FirstViewController.swift */,
-				F7D6DD071B660AD5008C4615 /* SecondViewController.swift */,
 				F7D6DD091B660AD5008C4615 /* Main.storyboard */,
+				F700A0961B68D0F8000776A2 /* ASAViewController.swift */,
 				F7D6DD0C1B660AD5008C4615 /* Images.xcassets */,
 				F7D6DD0E1B660AD5008C4615 /* LaunchScreen.xib */,
 				F7D6DD011B660AD5008C4615 /* Supporting Files */,
@@ -215,9 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7D6DD081B660AD5008C4615 /* SecondViewController.swift in Sources */,
+				F700A0991B68D7C5000776A2 /* SASViewController.swift in Sources */,
 				F7D6DD041B660AD5008C4615 /* AppDelegate.swift in Sources */,
-				F7D6DD061B660AD5008C4615 /* FirstViewController.swift in Sources */,
+				F700A0971B68D0F8000776A2 /* ASAViewController.swift in Sources */,
+				F700A09B1B68D8F2000776A2 /* SSSViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +419,7 @@
 				F7D6DD211B660AD5008C4615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7D6DD221B660AD5008C4615 /* Build configuration list for PBXNativeTarget "TrigonometryCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				F7D6DD241B660AD5008C4615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
